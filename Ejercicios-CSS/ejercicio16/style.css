@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 243, 175);
+}
+#SupI h1 {
+    color: red;
+}
+#SupI {
+    float: left;
+}
+#SupD {
+    float: right;
+}
+#conectar #boton{
+    color: red;
+    border-color: red;
+    background-color: transparent;
+}
+#Central #MedI fieldset {
+    margin: 30px;
+}
+#Central #MedD fieldset {
+    margin: 25px;
+}
+#Central #MedI label {
+    color: red;
+}
+#Central #MedI{
+    width: 50%;
+    float: left;
+    clear: left;
+}
+#Central #MedD label {
+    color: red;
+}
+#Central #MedD {
+    width: 50%;
+    float: right;
+    clear: right;
+}
+#Pie {
+    clear: both;
+}
+#Pie input {
+    border-color: red;
+    background-color: transparent;
+    color: red;
+}

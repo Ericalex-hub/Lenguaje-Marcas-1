@@ -1,0 +1,40 @@
+body {
+    /*El font-family: Verdana cambia la fuente de letra del texto*/
+    font-family: Verdana;
+    /**/
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background: black;
+    font-size: 2em;
+}
+section {
+    display: flex;
+}
+article {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+#articulo-1 {
+    background: #7ebdbd;
+}
+#articulo-2 {
+    background: #b6ebb3;
+}
+#articulo-3 {
+    background: #bacee3;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}

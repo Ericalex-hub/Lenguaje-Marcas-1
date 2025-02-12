@@ -1,0 +1,52 @@
+.rojo em {
+    color: red;
+}
+.rojo {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    height: 75px;
+}
+.rojo:hover {
+    opacity: 0;
+}
+.azul em {
+    color: blue;
+}
+.azul {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    height: 100px;
+}
+.azul:hover {
+    opacity: 0;
+}
+.verde em {
+    color: green;
+}
+.verde {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    height: 50px;
+}
+.verde:hover {
+    opacity: 0;
+}
+.morado em {
+    color: purple;
+}
+.morado {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    height: 25x;
+}
+.morado:hover {
+    opacity: 0;
+}

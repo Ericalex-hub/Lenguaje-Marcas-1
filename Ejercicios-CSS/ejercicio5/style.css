@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+h5 {
+    color: red;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.centro {
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}

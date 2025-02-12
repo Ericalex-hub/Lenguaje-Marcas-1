@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img {
+        height: 150px;
+        width: 100px;
+        border-radius: 50% 10% 50% 10% /
+        10% 50% 10% 50%;
+    }
+    .img-2 {
+        height: 150px;
+        width: 100px;
+        border-radius: 10% 50% 10% 50% /
+        50% 10% 50% 10%;
+    }
+    .presentation p {
+        text-shadow: 0px 0px 10px black,
+        0px 0px 20px black,
+        0px 0px 40px black,
+        0px 0px 80px black;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    .more-text {
+        color: black;
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        background-color: transparent;
+    }
+    body {
+        background-color: brown;
+    }
+    .cont {
+        display: flex;
+        justify-content: space-around;
+    }
+    .presentation {
+        flex-wrap: nowrap;
+        height: 960px;
+    }
+    .space-img {
+        height: 900px;
+    }
+    img {
+        width: 150px;
+        height: 250px;
+    }
+</style>
+<body>
+    <div class="presentation" id="inicio">
+   <p>Pulsa en la imagen de la película de la que
+    quieras más información</p>
+    <div class="cont">
+    <a href="#img1"><img src="images (1).jpeg" class="img"></a>
+    <a href="#img2"><img src="images (2).jpeg" class="img-2"></a>
+    <a href="#img3"><img src="images (3).jpeg" class="img"></a>
+    <a href="#img4"><img src="images.jpeg" class="img-2"></a>
+    </div>
+    </div>
+    <div>
+        <div class="space-img">
+            <a href="#inicio"><img id="img1" src="images (1).jpeg"></a>
+                <h1>Terrifier 3</h1>
+                <p>
+                Terrifier 3 es una película de
+                slasher estadounidense de 2024,
+                dirigida y escrita por Damien
+                Leone. Está protagonizada por
+                Lauren LaVera, Elliott Fullam,
+                David Howard Thornton y Samantha
+                Scaffidi, quienes repiten sus
+                papeles de películas anteriores.
+                La cinta es una secuela de Terrifier
+                2 (2022) y reintroduce a la
+                superviviente poseída Victoria Heyes
+                con un rol más destacado. Cinco años
+                después de sobrevivir a la masacre de
+                Halloween de Art the Clown, Sienna y
+                su hermano luchan por reconstruir sus
+                vidas destrozadas. A medida que se
+                acerca la temporada navideña, intentan
+                abrazar el espíritu navideño y dejar
+                atrás los horrores del pasado. Pero
+                justo cuando creen que están a salvo,
+                Art the Clown regresa, decidido a
+                convertir su alegría navideña en una
+                nueva pesadilla.
+                </p>
+                <p>
+                El filme se estrenó el 11 de
+                octubre de 2024 en Estados Unidos.
+                Recibió críticas generalmente
+                positivas recaudando en solo 3
+                días más de 20 millones de dólares,
+                convirtiéndose así en la entrega
+                más exitosa de la franquicia y en
+                la película sin clasificación más
+                taquillera de todos los tiempos.
+                </p>
+        </div>
+        <div class="space-img">
+            <a href="#inicio"><img id="img2" src="images (2).jpeg"></a>
+        </div>
+        <div class="space-img">
+            <a href="#inicio"><img id="img3" src="images (3).jpeg"></a>
+        </div>
+        <div class="space-img">
+            <a href="#inicio"><img id="img4" src="images.jpeg"></a>
+        </div>
+    </div>
+</body>
+</html>

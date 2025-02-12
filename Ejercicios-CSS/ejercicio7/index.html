@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .p4 {
+        background-color: rebeccapurple;
+        height: 50px;
+        width: 350px;
+    }
+    .p3 {
+        background-color: aqua;
+        height: 100px;
+        width: 400px;
+    }
+    .p2 {
+        background-color: blue;
+        height: 150px;
+        width: 450px;
+    }
+    .p1 {
+        background-color: brown;
+        height: 200px;
+        width: 500px;
+    }
+    div {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="p1">
+        Estoy dentro del contenedor
+        <div class="p2">
+            Yo perteneco a parte 1
+            <div class="p3">
+                Yo pertenezco a parte 2
+                <div class="p4">
+                    Yo pertenezco a parte 3
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

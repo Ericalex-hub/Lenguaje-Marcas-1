@@ -1,0 +1,12 @@
+p {
+    border: solid 2px black;
+    color: blue;
+    background-color: gray;
+    text-align: center;
+}
+.margi {
+    background-color: yellow;
+}
+.doble {
+    font-size: 2em;
+}

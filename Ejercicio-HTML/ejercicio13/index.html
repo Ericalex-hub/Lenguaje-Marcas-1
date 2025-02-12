@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        border: solid;
+    }
+    textarea {
+        height: 100px;
+        width: 400px;
+    }
+    .tabla {
+        width: 100px;
+    }
+    .enviar {
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+    }
+</style>
+<body>
+    <fieldset>
+        <legend><b>personales y de envío</b></legend>
+        Nombre: <input type="text">
+        <br>
+        Apellidos: <input type="text">
+        <br>
+        Domicilio: <input type="text">
+        <br>
+        Localidad: <input type="text">
+        <br>
+        Código postal: <input type="number">
+        <br>
+        Teléfono: <input type="number">
+    </fieldset>
+    <fieldset>
+        <legend><b>Elija la opción de entrega</b></legend>
+        <input type="radio"> Recoger en el local
+        <br>
+        <input type="radio"> Enviar a domicilio
+    </fieldset>
+    <fieldset>
+        <legend><b>¿Quieres que le enviemos nuestras ofertas?</b></legend>
+        <input type="checkbox"> Enviar al domicilio
+        <br>
+        <input type="checkbox"> Enviar por email
+    </fieldset>
+    <fieldset>
+        <legend><b>Elija su menu</b></legend>
+        Tamaño de bocadillo
+        <br>
+        <select size="3" class="tabla">
+            <option value="opcion1">pequeño</option>
+            <option value="opcion2">mediano</option>
+            <option value="opcion3">grande</option>
+            <option value="opcion4">enorme</option>
+          </select>
+          
+        <br>
+        Contenido del bocadillo
+        <br>
+        <select size="3" class="tabla">
+            <option value="opcion1">anchoas</option>
+            <option value="opcion2">calamares</option>
+            <option value="opcion3">mejillones</option>
+            <option value="opcion4">jamon</option>
+          </select>
+        <br>
+        Puede añadir alguna sugerencia
+        <br>
+        <textarea></textarea>
+    </fieldset>
+    <br>
+    <input class="enviar" type="submit" value="Enviar datos">
+</body>
+</html>

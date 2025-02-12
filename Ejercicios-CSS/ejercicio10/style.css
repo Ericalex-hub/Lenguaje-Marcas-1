@@ -1,0 +1,27 @@
+.p1 {
+    background-color: #7fffd4;
+    font-style: italic;
+    text-align: start;
+}
+.p2 {
+    background-color: bisque;
+    font-size: x-large;
+    text-align: center;
+}
+.p3 {
+    background-color: cadetblue;
+    font-size: small;
+    text-align: end;
+}
+div {
+    display: flex;
+}
+div .p1 {
+    float: left;
+}
+div .p2 {
+    float: right;
+}
+div .p3 {
+    float: left;
+}

@@ -1,0 +1,13 @@
+h3 {
+    background-color: aqua;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+    box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+    opacity: 0;
+    transition: 0.5s ease-in-out; 
+}
+h3:hover {
+    opacity: 1;
+}

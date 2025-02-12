@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, serif;
+        }
+        header {
+            padding: 30px;
+            background: #333334;
+            color: #FFFFFF;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            /*
+            Con este pone el texto todo a la izquierda: justify-content: flex-start;
+            Con este pone el texto centrado: justify-content: center;
+            Con este pone el texto todo a la izquierda: justify-content: flex-end;
+            Con este pone el texto este dividido por igual, pero no deja esoacio en los bordes: justify-content: space-between;
+            Con este pone el texto este dividido por igual y deja espacio en los bordes: justify-content: space-around;
+            Con este pone el texto todo a la izquierda: justify-content: flex-start;
+            */
+            /*justify-content: flex-start;*/
+            background: #CCC;
+            /*
+            Con este pone el texto quede a la izquierda: flex-diretion: row;
+            Con este pone el texto quede a la derecha: flex-diretion: row-reverse;
+            Con este pone el texto modo columna: flex-diretion: column;
+            Con este pone el texto modo columna, pero de forma invertida: flex-diretion: column-reverse;
+            */
+            /*
+            Con este pone el texto que se baje de forma ordenada al achicar la página: flex-wrap: wrap;
+            Con este pone el texto no hace nada: flex-wrap: nowrap;
+            Con este pone el texto que se baje de forma ordenada, pero invertida al achicar la página: flex-wrap: wrap-reverse;
+            */
+        }
+        nav a {
+            color: #555;
+            text-decoration: none;
+            padding: 15px;
+        }
+        nav a:hover {
+            background: #555;
+            color: #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+    <header>FlexBox - Alineado a la izquierda</header>
+    <nav>
+        <a href="#">Enlace 1</a>
+        <a href="#">Enlace 2</a>
+        <a href="#">Enlace 3</a>
+        <a href="#">Enlace 4</a>
+    </nav>
+</body>
+</html>
