@@ -135,6 +135,9 @@ body {
     width: 250px;
     float: right;
 }
+img {
+    width: 200px;
+}
 .pie {
     clear: both;
     color: white;
