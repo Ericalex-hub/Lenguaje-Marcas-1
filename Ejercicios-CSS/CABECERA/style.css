@@ -9,9 +9,9 @@ body {
 }
 .cabe_1 {
     color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 10;
+    width: 100%;
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.29);
     display: flex;
@@ -96,12 +96,16 @@ body {
     text-align: center;
     border-radius: 8px;
     color: white;
-    content: "Descubre";
     width: 200px;
     height: 50px;
     margin: 15px;
     font-size: 1.5rem;
     background-color: grey;
+}
+.input_2:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
 }
 .cuerpo {
     display: flex;
@@ -135,22 +139,6 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-/*
-.cabe_1 .nav {
-    float: right;
-    display: flex;
-    gap: 15px;
-    margin: 10px;
-}
-.nav a {
-    text-decoration: none;
-    color: black;
-}
-.cabe_1 div {
-    float: left;
-    margin: 10px;
-}
-*/
 .imagens{
     display: flex;
     flex-direction: column;
@@ -159,6 +147,6 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: sticky;
-    top: 0;
+/*    position: sticky;
+    top: 0;*/
 }

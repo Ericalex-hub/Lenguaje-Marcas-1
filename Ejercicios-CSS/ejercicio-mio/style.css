@@ -1,8 +1,6 @@
 body {
-    background-color: rgb(10, 10, 10);
     margin: 0px;
     padding: 0px;
-    color: rgb(214, 213, 213);
     font-family: Verdana;
 }
 .cbc_2 .img_logo {
@@ -30,12 +28,13 @@ body {
     padding: 15px;
     align-items: center;
     text-decoration: none;
-    color: rgb(214, 213, 213);
+    color: black;
 }
 @media screen and (max-width: 680px) {
     .cbc_2 {
         height: 130px;
         grid-template-columns: repeat(4, 1fr);
+        align-items: center;
     }
 }
 .group {
@@ -46,7 +45,7 @@ body {
     max-width: 200px;
   }
 .input_1 {
-    width: 100%;
+    width: 150px;
     height: 20px;
     line-height: 30px;
     border: 2px solid transparent;
@@ -99,7 +98,7 @@ body {
     100%{content: "Imagina sin límites"; opacity: 1;}
 }
 .cuerp .html {
-    width: 100%;
+    width: 100vh;
     height: 1000px;
 }
 .cuerp .html p {

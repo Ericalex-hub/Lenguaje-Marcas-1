@@ -1,0 +1,174 @@
+/*
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+.head {
+    margin: 5px;
+    text-align: center;
+}
+.cont-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 20px;
+    margin-top: 4rem;
+}
+.card {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 300px;
+    height: 200px;
+}
+.card h1 {
+    font-size: 22px;
+}
+img {
+    width: auto;
+    height: 100px;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(coche2.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.hero .hero-text {
+    text-align: center;
+}
+.hero .hero-text h1 {
+    margin: 5px;
+    font-size: 4rem;
+}
+.hero .hero-text p {
+    margin: 5px;
+}
+.btn {
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: gray;
+    transform: 1.5px;
+}
+.cont-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+img {
+    display: block;
+    width: 100%;
+}
+.car-1 {
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 2;
+}
+@media screen and (max-width: 780px) {
+    .cont-grid {
+        grid-template-columns: 2 / span 2;
+    }
+    .car-1 {
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 2;
+    }
+}
+.cont-grid-2 {
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.card {
+    border: 1px solid;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+@media screen and (max-width: 780px) {
+    .cont-grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width: 580px) {
+    .cont-grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+.cont-grid-3 {
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "head head head"
+    "slide-rigth main-arriba slide-left"
+    "slide-rigth main-abajo slide-left"
+    "pie pie pie";
+}
+.head {
+    grid-area: head;
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+.slide-rigth {
+    grid-area: slide-rigth;
+    background-color: blue;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+.main-arriba {
+    grid-area: main-arriba;
+    background-color: rebeccapurple;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+.slide-left {
+    grid-area: slide-left;
+    background-color: royalblue;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+.main-abajo {
+    grid-area: main-abajo;
+    background-color: teal;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+.pie {
+    grid-area: pie;
+    background-color: turquoise;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
