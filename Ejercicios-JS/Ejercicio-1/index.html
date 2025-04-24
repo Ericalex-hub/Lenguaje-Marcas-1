@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 1</h1>
+
+    <p>Presiona el boton y contempla la magia</p>
+
+    <input id="num">
+
+    <button type="button" onclick="funcion()">Presiona</button>
+
+    <p id="demo"></p>
+
+    <script>
+        // Hacer un ejercicio donde haiga un boton y al pulsarlo de un numero de entre el 1 al 10
+        function funcion() {
+            let x = document.getElementById("num").value;
+            let txt;
+            if (isNaN(x) || x < 1 || x > 10) {
+                txt = "INVALIDO";
+            } else {
+                txt = "El numero es: " + x;
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+</body>
+</html>

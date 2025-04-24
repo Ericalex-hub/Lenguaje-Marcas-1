@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 3</h1>
+
+    <p>Vamos a validar un descuento de un producto</p>
+
+    <input id="produc" placeholder="PRECIO PRODUCTO" style="text-align: center;">
+
+    <button type="button" onclick="funcio()">CALCULAR</button>
+
+    <p id="most"></p>
+
+    <script>
+        function funcio() {
+            let peso = document.getElementById("produc").value;
+            let descuento = peso * 0.20;
+            let txt;
+            if (descuento > 0) {
+                txt = "El descuento es de: " + descuento;
+            }
+            document.getElementById("most").innerHTML = txt;
+        }
+    </script>
+</body>
+</html>

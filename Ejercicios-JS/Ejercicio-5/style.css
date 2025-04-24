@@ -1,0 +1,26 @@
+/*.contenedor {
+    display: none;
+}
+.active {
+    display: block;
+}*/
+.accordion-container {
+    width: 50%;
+}
+.accordion-body {
+    display: none;
+}
+.accordion-head {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 15px;
+}
+.active {
+    display: block;
+}
+.btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}

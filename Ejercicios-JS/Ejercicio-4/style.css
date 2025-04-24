@@ -1,0 +1,30 @@
+.botones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button_1 {
+    background-color: violet;
+    border: none;
+    border-radius: 25px;
+}
+.button_2 {
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+}
+.button_3 {
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+}
+.button_4 {
+    background-color: transparent;
+    border-radius: 25px;
+}
+.button_5 {
+    background-color: transparent; border-radius: 25px;
+}
+.button_6 {
+    background-color: transparent; border-radius: 25px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+
+    <p>Vamos a validar la masa de grasa corporal</p>
+
+    <input id="peso" placeholder="PESO KG">
+    <input id="altura" placeholder="ALTURA CM">
+
+    <button type="button" onclick="funcio()">CALCULAR</button>
+
+    <p id="most"></p>
+
+    <script>
+        function funcio() {
+            let peso = document.getElementById("peso").value;
+            let altura = document.getElementById("altura").value / 100;
+            let txt;
+            if (peso < 0 || altura < 0) {
+                txt = "ALGUNO DE SUS VALORES ES INVALIDO";
+            } else {
+                let calc = peso / altura ** 2;
+                if (calc < 18.5) {
+                    txt = "TE FALTA PESO";
+                } else if (calc >= 18.5 && calc <= 24.9) {
+                    txt = "PESO NORMAL";
+                } else if (calc >= 25 && calc <= 29.9) {
+                    txt = "SOBREPESO";
+                }
+            }
+            document.getElementById("most").innerHTML = txt;
+        }
+    </script>
+
+</body>
+</html>
